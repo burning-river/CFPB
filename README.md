@@ -52,8 +52,21 @@ Fig. 3: Pie chart showing top 5 products in the dataset.
 
 * Shorter response times by CFPB correlate with more disputes perhaps due to poorer pre-processing of the complaints by CFPB. This is something the CFPB could investigate.
 
-Fig. 6: Boxplot showing the distribution of response time by CFPB in the dataset.
+Fig. 4: Boxplot showing the distribution of response time by CFPB in the dataset.
+<p float="left">
+<img src="figures/response_time.png" width="450" height="300"/>
+</p>
 
 * 71% recall rate is useful since a large number of the complaints can be predicted which might be disputed in the future and therefore companies can take preemptive measures. To improve the predictive model we might need better data: less missing values, more details such as monetary amount in the complaint, demographic information, etc.
-* Credit reporting, debt collection and money transfers were the products most important in our classification model. Both companies and consumers should be careful about such products.
 * Company response is correlated with company disputes. Better explanation from companies, more monetary relief and alternative ways to compensate consumers can lead to less disputes. 
+* Credit reporting, debt collection and mortgage were the products most important in our classification model. Both companies and consumers should be careful about such products.
+
+Fig. 5: Feature importances from XGBoost
+<p float="left">
+<img src="figures/feature_imp.png" width="600" height="300"/>
+</p>
+
+Fig. 6: Company response in disputes vs. non-disputes
+<p float="left">
+<img src="figures/company_response.png" width="600" height="300"/>
+</p>
