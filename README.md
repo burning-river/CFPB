@@ -20,10 +20,9 @@ The dataset was downloaded from [Kaggle](https://www.kaggle.com/datasets/kaggle/
 * public response of companies,
 * whether or not consent was provided by the consumer, etc.
 
-Fig. 1: Class Distribution of the target variable
+Fig 1: Class Distribution of the target variable
 <p float="left">
-<img src="figures/cafe_locations.png" width="500" height="300"/>
-<img src="figures/downtown_cafes.png" width="500" height="300"/>
+<img src="figures/class_dist_entire_data.png" width="500" height="400"/>
 </p>
 
 ### Data pre-processing: 
@@ -39,11 +38,17 @@ After feature engineering, we converted the categorical features into numerical 
 * Wells Fargo and Bank of America had the most complaints. Consumers can look at other banks to buy products. Better regulations in these companies can prevent consumer complaints.
 * Citibank responses had higher than usual disputes from customers. 
 
-Fig. 4: Pie chart showing top 5 companies in the dataset.
+Fig. 2: Pie chart showing top 5 companies in the dataset.
+<p float="left">
+<img src="figures/top_companies.png" width="600" height="300"/>
+</p>
 
 * Mortgage, debt collection and credit reporting were the products with most complaints. Both companies and consumers can be diligent while buying and selling such products respectively. 
 
-Fig. 5: Pie chart showing top 5 products in the dataset.
+Fig. 3: Pie chart showing top 5 products in the dataset.
+<p float="left">
+<img src="figures/products_pie.png" width="600" height="300"/>
+</p>
 
 * Shorter response times by CFPB correlate with more disputes perhaps due to poorer pre-processing of the complaints by CFPB. This is something the CFPB could investigate.
 
